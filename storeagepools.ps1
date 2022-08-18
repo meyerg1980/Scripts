@@ -1,0 +1,2 @@
+New-StoragePool
+New-VirtualDisk
