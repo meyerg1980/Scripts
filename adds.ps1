@@ -1,0 +1,1 @@
+install-addsdomaincotroller -domainname meyersec.com -Credential (Get-Credential)
