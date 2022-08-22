@@ -10,3 +10,7 @@ $name = "myFunc"
 #pass the parameter directly to cmd line
 func new -t HttpTrigger -n --% "MyFunc"
 
+
+
+
+
