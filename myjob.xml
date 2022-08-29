@@ -1,0 +1,946 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Deserialized.System.Diagnostics.Process</T>
+      <T>Deserialized.System.ComponentModel.Component</T>
+      <T>Deserialized.System.MarshalByRefObject</T>
+      <T>Deserialized.System.Object</T>
+    </TN>
+    <ToString>System.Diagnostics.Process (pwsh)</ToString>
+    <Props>
+      <I32 N="BasePriority">8</I32>
+      <B N="HasExited">false</B>
+      <S N="Handle">2260</S>
+      <S N="SafeHandle">Microsoft.Win32.SafeHandles.SafeProcessHandle</S>
+      <I32 N="HandleCount">736</I32>
+      <I32 N="Id">756</I32>
+      <S N="MachineName">.</S>
+      <S N="MainWindowHandle">0</S>
+      <S N="MainWindowTitle"></S>
+      <S N="MainModule">System.Diagnostics.ProcessModule (pwsh.exe)</S>
+      <S N="MaxWorkingSet">1413120</S>
+      <S N="MinWorkingSet">204800</S>
+      <Obj N="Modules" RefId="1">
+        <TN RefId="1">
+          <T>Deserialized.System.Diagnostics.ProcessModuleCollection</T>
+          <T>Deserialized.System.Collections.ReadOnlyCollectionBase</T>
+          <T>Deserialized.System.Object</T>
+        </TN>
+        <LST>
+          <S>System.Diagnostics.ProcessModule (pwsh.exe)</S>
+          <S>System.Diagnostics.ProcessModule (ntdll.dll)</S>
+          <S>System.Diagnostics.ProcessModule (KERNEL32.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (KERNELBASE.dll)</S>
+          <S>System.Diagnostics.ProcessModule (apphelp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (USER32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (win32u.dll)</S>
+          <S>System.Diagnostics.ProcessModule (GDI32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (gdi32full.dll)</S>
+          <S>System.Diagnostics.ProcessModule (SHELL32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (msvcrt.dll)</S>
+          <S>System.Diagnostics.ProcessModule (cfgmgr32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (windows.storage.dll)</S>
+          <S>System.Diagnostics.ProcessModule (combase.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ucrtbase.dll)</S>
+          <S>System.Diagnostics.ProcessModule (RPCRT4.dll)</S>
+          <S>System.Diagnostics.ProcessModule (bcryptPrimitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (powrprof.dll)</S>
+          <S>System.Diagnostics.ProcessModule (advapi32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (sechost.dll)</S>
+          <S>System.Diagnostics.ProcessModule (shlwapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (kernel.appcore.dll)</S>
+          <S>System.Diagnostics.ProcessModule (shcore.dll)</S>
+          <S>System.Diagnostics.ProcessModule (profapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (IMM32.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (hostfxr.dll)</S>
+          <S>System.Diagnostics.ProcessModule (hostpolicy.dll)</S>
+          <S>System.Diagnostics.ProcessModule (coreclr.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ole32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (OLEAUT32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (msvcp_win.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Private.CoreLib.dll)</S>
+          <S>System.Diagnostics.ProcessModule (clrjit.dll)</S>
+          <S>System.Diagnostics.ProcessModule (pwsh.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.ConsoleHost.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Management.Automation.dll)</S>
+          <S>System.Diagnostics.ProcessModule (BCrypt.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.Thread.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.InteropServices.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.Process.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Text.RegularExpressions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.Concurrent.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Xml.ReaderWriter.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Private.Xml.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Private.Uri.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Memory.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Management.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ComponentModel.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.DirectoryServices.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.NetworkInformation.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Linq.Expressions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Text.Encoding.Extensions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Win32.Registry.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Management.Infrastructure.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.X509Certificates.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.Encoding.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Newtonsoft.Json.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.InteropServices.RuntimeInformation.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Numerics.dll)</S>
+          <S>System.Diagnostics.ProcessModule (amsi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (clbcatq.dll)</S>
+          <S>System.Diagnostics.ProcessModule (MpOav.dll)</S>
+          <S>System.Diagnostics.ProcessModule (version.dll)</S>
+          <S>System.Diagnostics.ProcessModule (netstandard.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.AccessControl.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ComponentModel.TypeConverter.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Mail.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ObjectModel.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Serialization.Formatters.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.TraceSource.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Linq.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Serialization.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Data.Common.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ComponentModel.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.Emit.ILGeneration.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.Emit.Lightweight.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.CoreCLR.Eventing.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Win32.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (wldp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (CRYPT32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (MSASN1.dll)</S>
+          <S>System.Diagnostics.ProcessModule (WINTRUST.dll)</S>
+          <S>System.Diagnostics.ProcessModule (CRYPTSP.dll)</S>
+          <S>System.Diagnostics.ProcessModule (rsaenh.dll)</S>
+          <S>System.Diagnostics.ProcessModule (CRYPTBASE.dll)</S>
+          <S>System.Diagnostics.ProcessModule (srvcli.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Console.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Principal.Windows.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Claims.dll)</S>
+          <S>System.Diagnostics.ProcessModule (uxtheme.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.ApplicationInsights.dll)</S>
+          <S>System.Diagnostics.ProcessModule (USERENV.dll)</S>
+          <S>System.Diagnostics.ProcessModule (propsys.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Bcp47Langs.dll)</S>
+          <S>System.Diagnostics.ProcessModule (LINKINFO.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ntshrui.dll)</S>
+          <S>System.Diagnostics.ProcessModule (SspiCli.dll)</S>
+          <S>System.Diagnostics.ProcessModule (cscapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.DiagnosticSource.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ntmarta.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.Tracing.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.MemoryMappedFiles.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Private.Xml.Linq.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Xml.XDocument.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Http.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.Pipes.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.Overlapped.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.Specialized.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Security.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.Security.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.Tasks.Parallel.dll)</S>
+          <S>System.Diagnostics.ProcessModule (secur32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.FileSystem.DriveInfo.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Loader.dll)</S>
+          <S>System.Diagnostics.ProcessModule (mpr.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Sockets.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.NameResolution.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.NonGeneric.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.FileSystem.AccessControl.dll)</S>
+          <S>System.Diagnostics.ProcessModule (MPCLIENT.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (gpapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Text.Encoding.CodePages.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.ThreadPool.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Permissions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (coml2.dll)</S>
+          <S>System.Diagnostics.ProcessModule (cryptnet.dll)</S>
+          <S>System.Diagnostics.ProcessModule (IPHLPAPI.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (WINNSI.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (NSI.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.PSReadLine2.dll)</S>
+          <S>System.Diagnostics.ProcessModule (mscorlib.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Core.dll)</S>
+          <S>System.Diagnostics.ProcessModule (DNSAPI.dll)</S>
+          <S>System.Diagnostics.ProcessModule (WS2_32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (dhcpcsvc6.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (dhcpcsvc.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (winhttp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ondemandconnroutehelper.dll)</S>
+          <S>System.Diagnostics.ProcessModule (mswsock.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ucrtbase.dll)</S>
+          <S>System.Diagnostics.ProcessModule (NLAapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (winrnr.dll)</S>
+          <S>System.Diagnostics.ProcessModule (rasadhlp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (napinsp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (fwpuclnt.dll)</S>
+          <S>System.Diagnostics.ProcessModule (schannel.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (Normaliz.dll)</S>
+          <S>System.Diagnostics.ProcessModule (mskeyprotect.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ncrypt.dll)</S>
+          <S>System.Diagnostics.ProcessModule (NTASN1.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ncryptsslp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.Compression.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.Compression.Native.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.Algorithms.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.StackTrace.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.CompilerServices.Unsafe.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.Commands.Utility.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.MarkdownRender.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.Commands.Management.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Management.Infrastructure.Native.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Handles.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.CompilerServices.VisualC.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Management.Infrastructure.Native.Unmanaged.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (mi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (miutils.dll)</S>
+          <S>System.Diagnostics.ProcessModule (DPAPI.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (System.Globalization.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Extensions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.CSharp.dll)</S>
+        </LST>
+      </Obj>
+      <I32 N="NonpagedSystemMemorySize">71384</I32>
+      <I64 N="NonpagedSystemMemorySize64">71384</I64>
+      <I32 N="PagedMemorySize">75165696</I32>
+      <I64 N="PagedMemorySize64">75165696</I64>
+      <I32 N="PagedSystemMemorySize">389304</I32>
+      <I64 N="PagedSystemMemorySize64">389304</I64>
+      <I32 N="PeakPagedMemorySize">77815808</I32>
+      <I64 N="PeakPagedMemorySize64">77815808</I64>
+      <I32 N="PeakWorkingSet">121475072</I32>
+      <I64 N="PeakWorkingSet64">121475072</I64>
+      <I32 N="PeakVirtualMemorySize">840499200</I32>
+      <I64 N="PeakVirtualMemorySize64">2199863754752</I64>
+      <B N="PriorityBoostEnabled">true</B>
+      <S N="PriorityClass">Normal</S>
+      <I32 N="PrivateMemorySize">75165696</I32>
+      <I64 N="PrivateMemorySize64">75165696</I64>
+      <TS N="PrivilegedProcessorTime">PT0.546875S</TS>
+      <S N="ProcessName">pwsh</S>
+      <S N="ProcessorAffinity">63</S>
+      <B N="Responding">true</B>
+      <I32 N="SessionId">2</I32>
+      <S N="StartInfo">System.Diagnostics.ProcessStartInfo</S>
+      <DT N="StartTime">2022-08-28T12:47:49.0844333-05:00</DT>
+      <Nil N="SynchronizingObject" />
+      <Obj N="Threads" RefId="2">
+        <TN RefId="2">
+          <T>Deserialized.System.Diagnostics.ProcessThreadCollection</T>
+          <T>Deserialized.System.Collections.ReadOnlyCollectionBase</T>
+          <T>Deserialized.System.Object</T>
+        </TN>
+        <LST>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+        </LST>
+      </Obj>
+      <TS N="TotalProcessorTime">PT4.5625S</TS>
+      <TS N="UserProcessorTime">PT4.015625S</TS>
+      <I32 N="VirtualMemorySize">809009152</I32>
+      <I64 N="VirtualMemorySize64">2199832264704</I64>
+      <B N="EnableRaisingEvents">false</B>
+      <I32 N="WorkingSet">119549952</I32>
+      <I64 N="WorkingSet64">119549952</I64>
+      <Nil N="Site" />
+      <Nil N="Container" />
+    </Props>
+    <MS>
+      <S N="Name">pwsh</S>
+      <I32 N="SI">2</I32>
+      <I32 N="Handles">736</I32>
+      <I64 N="VM">2199832264704</I64>
+      <I64 N="WS">119549952</I64>
+      <I64 N="PM">75165696</I64>
+      <I64 N="NPM">71384</I64>
+      <S N="Path">C:\Program Files\PowerShell\7\pwsh.exe</S>
+      <S N="Company">Microsoft Corporation</S>
+      <Db N="CPU">4.5625</Db>
+      <S N="FileVersion">7.2.6.500</S>
+      <S N="ProductVersion">7.2.6 SHA: eb2c4accddda2995e50cd349e655888500899d8b</S>
+      <S N="Description">pwsh</S>
+      <S N="Product">PowerShell</S>
+      <S N="__NounName">Process</S>
+      <S N="PSComputerName">dc</S>
+      <G N="RunspaceId">6c112324-af20-4475-a9a4-ea1f2ebf4a6f</G>
+      <B N="PSShowComputerName">true</B>
+    </MS>
+  </Obj>
+  <Obj RefId="3">
+    <TNRef RefId="0" />
+    <ToString>System.Diagnostics.Process (pwsh)</ToString>
+    <Props>
+      <I32 N="BasePriority">8</I32>
+      <B N="HasExited">false</B>
+      <S N="Handle">2232</S>
+      <S N="SafeHandle">Microsoft.Win32.SafeHandles.SafeProcessHandle</S>
+      <I32 N="HandleCount">1353</I32>
+      <I32 N="Id">4028</I32>
+      <S N="MachineName">.</S>
+      <S N="MainWindowHandle">0</S>
+      <S N="MainWindowTitle"></S>
+      <S N="MainModule">System.Diagnostics.ProcessModule (pwsh.exe)</S>
+      <S N="MaxWorkingSet">1413120</S>
+      <S N="MinWorkingSet">204800</S>
+      <Obj N="Modules" RefId="4">
+        <TNRef RefId="1" />
+        <LST>
+          <S>System.Diagnostics.ProcessModule (pwsh.exe)</S>
+          <S>System.Diagnostics.ProcessModule (ntdll.dll)</S>
+          <S>System.Diagnostics.ProcessModule (KERNEL32.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (KERNELBASE.dll)</S>
+          <S>System.Diagnostics.ProcessModule (USER32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (win32u.dll)</S>
+          <S>System.Diagnostics.ProcessModule (GDI32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (gdi32full.dll)</S>
+          <S>System.Diagnostics.ProcessModule (SHELL32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (msvcrt.dll)</S>
+          <S>System.Diagnostics.ProcessModule (cfgmgr32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (windows.storage.dll)</S>
+          <S>System.Diagnostics.ProcessModule (combase.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ucrtbase.dll)</S>
+          <S>System.Diagnostics.ProcessModule (RPCRT4.dll)</S>
+          <S>System.Diagnostics.ProcessModule (bcryptPrimitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (powrprof.dll)</S>
+          <S>System.Diagnostics.ProcessModule (advapi32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (sechost.dll)</S>
+          <S>System.Diagnostics.ProcessModule (shlwapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (kernel.appcore.dll)</S>
+          <S>System.Diagnostics.ProcessModule (shcore.dll)</S>
+          <S>System.Diagnostics.ProcessModule (profapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (IMM32.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (hostfxr.dll)</S>
+          <S>System.Diagnostics.ProcessModule (hostpolicy.dll)</S>
+          <S>System.Diagnostics.ProcessModule (coreclr.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ole32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (OLEAUT32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (msvcp_win.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Private.CoreLib.dll)</S>
+          <S>System.Diagnostics.ProcessModule (clrjit.dll)</S>
+          <S>System.Diagnostics.ProcessModule (pwsh.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.ConsoleHost.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Management.Automation.dll)</S>
+          <S>System.Diagnostics.ProcessModule (BCrypt.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.Thread.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.InteropServices.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.Process.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Text.RegularExpressions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Xml.ReaderWriter.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Private.Xml.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Private.Uri.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.Concurrent.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Management.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ComponentModel.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.DirectoryServices.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Memory.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.NetworkInformation.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Text.Encoding.Extensions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Linq.Expressions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Win32.Registry.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Management.Infrastructure.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.X509Certificates.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Newtonsoft.Json.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.InteropServices.RuntimeInformation.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.Encoding.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (amsi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (clbcatq.dll)</S>
+          <S>System.Diagnostics.ProcessModule (MpOav.dll)</S>
+          <S>System.Diagnostics.ProcessModule (version.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Numerics.dll)</S>
+          <S>System.Diagnostics.ProcessModule (netstandard.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.AccessControl.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ComponentModel.TypeConverter.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Mail.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ObjectModel.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Serialization.Formatters.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.TraceSource.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Linq.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Serialization.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Data.Common.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ComponentModel.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.Emit.ILGeneration.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.Emit.Lightweight.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.CoreCLR.Eventing.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Win32.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (wldp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (CRYPT32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (MSASN1.dll)</S>
+          <S>System.Diagnostics.ProcessModule (WINTRUST.dll)</S>
+          <S>System.Diagnostics.ProcessModule (CRYPTSP.dll)</S>
+          <S>System.Diagnostics.ProcessModule (rsaenh.dll)</S>
+          <S>System.Diagnostics.ProcessModule (CRYPTBASE.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Console.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Principal.Windows.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Claims.dll)</S>
+          <S>System.Diagnostics.ProcessModule (uxtheme.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.ApplicationInsights.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.DiagnosticSource.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.Tracing.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.MemoryMappedFiles.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Private.Xml.Linq.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.Pipes.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Xml.XDocument.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.Specialized.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.Security.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.Tasks.Parallel.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.FileSystem.DriveInfo.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.StackTrace.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.NonGeneric.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.Overlapped.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.FileSystem.AccessControl.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Text.Encoding.CodePages.dll)</S>
+          <S>System.Diagnostics.ProcessModule (secur32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (SSPICLI.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (mpr.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Loader.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.ThreadPool.dll)</S>
+          <S>System.Diagnostics.ProcessModule (MPCLIENT.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (USERENV.dll)</S>
+          <S>System.Diagnostics.ProcessModule (gpapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.EditorServices.Hosting.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Extensions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.FileSystem.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.Tasks.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.Commands.Diagnostics.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.Commands.Utility.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.MarkdownRender.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Http.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.Commands.Management.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.WSMan.Management.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.WSMan.Runtime.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.EditorServices.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Extensions.Logging.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Extensions.Logging.Abstractions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Serilog.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Serilog.Sinks.Async.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Serilog.Extensions.Logging.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Serilog.Sinks.File.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Extensions.Options.dll)</S>
+          <S>System.Diagnostics.ProcessModule (OmniSharp.Extensions.LanguageServer.dll)</S>
+          <S>System.Diagnostics.ProcessModule (OmniSharp.Extensions.JsonRpc.dll)</S>
+          <S>System.Diagnostics.ProcessModule (MediatR.dll)</S>
+          <S>System.Diagnostics.ProcessModule (OmniSharp.Extensions.LanguageProtocol.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.Immutable.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Extensions.Configuration.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Extensions.Configuration.Abstractions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reactive.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Extensions.DependencyInjection.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Extensions.DependencyInjection.Abstractions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Nerdbank.Streams.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.Pipelines.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.Tasks.Extensions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.VisualStudio.Validation.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.VisualStudio.Threading.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Buffers.dll)</S>
+          <S>System.Diagnostics.ProcessModule (OmniSharp.Extensions.LanguageServer.Shared.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Extensions.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.Channels.dll)</S>
+          <S>System.Diagnostics.ProcessModule (coml2.dll)</S>
+          <S>System.Diagnostics.ProcessModule (cryptnet.dll)</S>
+          <S>System.Diagnostics.ProcessModule (IPHLPAPI.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (WINNSI.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (NSI.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.PSReadLine2.dll)</S>
+          <S>System.Diagnostics.ProcessModule (mscorlib.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Core.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.PSReadLine.Polyfiller.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Permissions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.EditorServices.VSCode.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.CSharp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Windows.PowerShell.ScriptAnalyzer.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Resources.ResourceManager.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.CrossCompatibility.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Windows.PowerShell.ScriptAnalyzer.BuiltinRules.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Pluralize.NET.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.TypeExtensions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.Algorithms.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ntmarta.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.CompilerServices.Unsafe.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.Compression.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.Compression.Native.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Security.dll)</S>
+          <S>System.Diagnostics.ProcessModule (DNSAPI.dll)</S>
+          <S>System.Diagnostics.ProcessModule (WS2_32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (dhcpcsvc6.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (dhcpcsvc.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (winhttp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ondemandconnroutehelper.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Sockets.dll)</S>
+          <S>System.Diagnostics.ProcessModule (mswsock.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.NameResolution.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ucrtbase.dll)</S>
+          <S>System.Diagnostics.ProcessModule (NLAapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (winrnr.dll)</S>
+          <S>System.Diagnostics.ProcessModule (rasadhlp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (fwpuclnt.dll)</S>
+          <S>System.Diagnostics.ProcessModule (napinsp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (schannel.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (Normaliz.dll)</S>
+          <S>System.Diagnostics.ProcessModule (mskeyprotect.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ncrypt.dll)</S>
+          <S>System.Diagnostics.ProcessModule (NTASN1.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ncryptsslp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ServiceProcess.ServiceController.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Xml.XPath.dll)</S>
+          <S>System.Diagnostics.ProcessModule (OmniSharp.Extensions.DebugAdapter.dll)</S>
+          <S>System.Diagnostics.ProcessModule (WsmSvc.dll)</S>
+          <S>System.Diagnostics.ProcessModule (miutils.dll)</S>
+          <S>System.Diagnostics.ProcessModule (DSROLE.dll)</S>
+          <S>System.Diagnostics.ProcessModule (pcwum.dll)</S>
+          <S>System.Diagnostics.ProcessModule (mi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (DPAPI.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (wkscli.dll)</S>
+          <S>System.Diagnostics.ProcessModule (netutils.dll)</S>
+          <S>System.Diagnostics.ProcessModule (kerberos.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (webio.dll)</S>
+          <S>System.Diagnostics.ProcessModule (cryptdll.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.Pkcs.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.FileVersionInfo.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.ThreadJob.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ComponentModel.EventBasedAsync.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.DiaSymReader.Native.amd64.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.Metadata.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.Emit.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Management.Infrastructure.CimCmdlets.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Management.Infrastructure.Native.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Handles.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.CompilerServices.VisualC.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Management.Infrastructure.Native.Unmanaged.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (wmidcom.dll)</S>
+          <S>System.Diagnostics.ProcessModule (wbemprox.dll)</S>
+          <S>System.Diagnostics.ProcessModule (wbemcomn.dll)</S>
+          <S>System.Diagnostics.ProcessModule (wbemsvc.dll)</S>
+          <S>System.Diagnostics.ProcessModule (fastprox.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Globalization.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.KeyVault.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.KeyVault.WebKey.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.Management.KeyVault.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Azure.Security.KeyVault.Keys.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Azure.Security.KeyVault.Certificates.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Azure.Security.KeyVault.Administration.dll)</S>
+          <S>System.Diagnostics.ProcessModule (BouncyCastle.Crypto.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Authentication.Abstractions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Authentication.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Authenticators.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Authentication.ResourceManager.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Clients.Authorization.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Clients.Compute.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Clients.Graph.Rbac.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Clients.Monitor.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Clients.Network.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Clients.PolicyInsights.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Clients.ResourceManager.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Common.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Storage.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Clients.Storage.Management.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Clients.KeyVault.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Clients.Websites.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Hyak.Common.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.Common.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Rest.ClientRuntime.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Rest.ClientRuntime.Azure.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.WindowsAzure.Storage.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.WindowsAzure.Storage.DataMovement.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Clients.Aks.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Strategies.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Common.Share.dll)</S>
+          <S>System.Diagnostics.ProcessModule (FuzzySharp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.AuthenticationAssemblyLoadContext.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Cmdlets.Accounts.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Text.Json.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Identity.Client.Extensions.Msal.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.FileSystem.Watcher.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.ProtectedData.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Azure.Identity.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Azure.PowerShell.Cmdlets.KeyVault.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PackageManagement.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.PackageManagement.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.ServicePoint.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.CodeAnalysis.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.CodeAnalysis.CSharp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.Compression.ZipFile.dll)</S>
+          <S>System.Diagnostics.ProcessModule (YamlDotNet.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Quic.dll)</S>
+        </LST>
+      </Obj>
+      <I32 N="NonpagedSystemMemorySize">167296</I32>
+      <I64 N="NonpagedSystemMemorySize64">167296</I64>
+      <I32 N="PagedMemorySize">416915456</I32>
+      <I64 N="PagedMemorySize64">416915456</I64>
+      <I32 N="PagedSystemMemorySize">533528</I32>
+      <I64 N="PagedSystemMemorySize64">533528</I64>
+      <I32 N="PeakPagedMemorySize">418762752</I32>
+      <I64 N="PeakPagedMemorySize64">418762752</I64>
+      <I32 N="PeakWorkingSet">492843008</I32>
+      <I64 N="PeakWorkingSet64">492843008</I64>
+      <I32 N="PeakVirtualMemorySize">1056223232</I32>
+      <I64 N="PeakVirtualMemorySize64">2200079478784</I64>
+      <B N="PriorityBoostEnabled">true</B>
+      <S N="PriorityClass">Normal</S>
+      <I32 N="PrivateMemorySize">416915456</I32>
+      <I64 N="PrivateMemorySize64">416915456</I64>
+      <TS N="PrivilegedProcessorTime">PT20.84375S</TS>
+      <S N="ProcessName">pwsh</S>
+      <S N="ProcessorAffinity">15</S>
+      <B N="Responding">true</B>
+      <I32 N="SessionId">2</I32>
+      <S N="StartInfo">System.Diagnostics.ProcessStartInfo</S>
+      <DT N="StartTime">2022-08-28T10:19:44.2966278-05:00</DT>
+      <Nil N="SynchronizingObject" />
+      <Obj N="Threads" RefId="5">
+        <TNRef RefId="2" />
+        <LST>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+        </LST>
+      </Obj>
+      <TS N="TotalProcessorTime">PT1M12.578125S</TS>
+      <TS N="UserProcessorTime">PT51.734375S</TS>
+      <I32 N="VirtualMemorySize">1021886464</I32>
+      <I64 N="VirtualMemorySize64">2200045142016</I64>
+      <B N="EnableRaisingEvents">false</B>
+      <I32 N="WorkingSet">490172416</I32>
+      <I64 N="WorkingSet64">490172416</I64>
+      <Nil N="Site" />
+      <Nil N="Container" />
+    </Props>
+    <MS>
+      <S N="Name">pwsh</S>
+      <I32 N="SI">2</I32>
+      <I32 N="Handles">1353</I32>
+      <I64 N="VM">2200045142016</I64>
+      <I64 N="WS">490172416</I64>
+      <I64 N="PM">416915456</I64>
+      <I64 N="NPM">167296</I64>
+      <S N="Path">C:\Program Files\PowerShell\7\pwsh.exe</S>
+      <S N="Company">Microsoft Corporation</S>
+      <Db N="CPU">72.578125</Db>
+      <S N="FileVersion">7.2.6.500</S>
+      <S N="ProductVersion">7.2.6 SHA: eb2c4accddda2995e50cd349e655888500899d8b</S>
+      <S N="Description">pwsh</S>
+      <S N="Product">PowerShell</S>
+      <S N="__NounName">Process</S>
+      <S N="PSComputerName">localhost</S>
+      <G N="RunspaceId">2773d455-e1ef-4bde-bae8-0e1a5e79ab8c</G>
+      <B N="PSShowComputerName">true</B>
+    </MS>
+  </Obj>
+  <Obj RefId="6">
+    <TNRef RefId="0" />
+    <ToString>System.Diagnostics.Process (pwsh)</ToString>
+    <Props>
+      <I32 N="BasePriority">8</I32>
+      <B N="HasExited">false</B>
+      <S N="Handle">2400</S>
+      <S N="SafeHandle">Microsoft.Win32.SafeHandles.SafeProcessHandle</S>
+      <I32 N="HandleCount">603</I32>
+      <I32 N="Id">4368</I32>
+      <S N="MachineName">.</S>
+      <S N="MainWindowHandle">0</S>
+      <S N="MainWindowTitle"></S>
+      <S N="MainModule">System.Diagnostics.ProcessModule (pwsh.exe)</S>
+      <S N="MaxWorkingSet">1413120</S>
+      <S N="MinWorkingSet">204800</S>
+      <Obj N="Modules" RefId="7">
+        <TNRef RefId="1" />
+        <LST>
+          <S>System.Diagnostics.ProcessModule (pwsh.exe)</S>
+          <S>System.Diagnostics.ProcessModule (ntdll.dll)</S>
+          <S>System.Diagnostics.ProcessModule (KERNEL32.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (KERNELBASE.dll)</S>
+          <S>System.Diagnostics.ProcessModule (USER32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (win32u.dll)</S>
+          <S>System.Diagnostics.ProcessModule (GDI32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (gdi32full.dll)</S>
+          <S>System.Diagnostics.ProcessModule (SHELL32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (msvcrt.dll)</S>
+          <S>System.Diagnostics.ProcessModule (cfgmgr32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (windows.storage.dll)</S>
+          <S>System.Diagnostics.ProcessModule (combase.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ucrtbase.dll)</S>
+          <S>System.Diagnostics.ProcessModule (RPCRT4.dll)</S>
+          <S>System.Diagnostics.ProcessModule (bcryptPrimitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (powrprof.dll)</S>
+          <S>System.Diagnostics.ProcessModule (advapi32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (sechost.dll)</S>
+          <S>System.Diagnostics.ProcessModule (shlwapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (kernel.appcore.dll)</S>
+          <S>System.Diagnostics.ProcessModule (shcore.dll)</S>
+          <S>System.Diagnostics.ProcessModule (profapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (IMM32.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (hostfxr.dll)</S>
+          <S>System.Diagnostics.ProcessModule (hostpolicy.dll)</S>
+          <S>System.Diagnostics.ProcessModule (coreclr.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ole32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (OLEAUT32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (msvcp_win.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Private.CoreLib.dll)</S>
+          <S>System.Diagnostics.ProcessModule (clrjit.dll)</S>
+          <S>System.Diagnostics.ProcessModule (pwsh.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.ConsoleHost.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Management.Automation.dll)</S>
+          <S>System.Diagnostics.ProcessModule (BCrypt.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.Thread.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.InteropServices.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.Process.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Text.RegularExpressions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Xml.ReaderWriter.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Private.Xml.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Private.Uri.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.Concurrent.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Management.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ComponentModel.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.DirectoryServices.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Memory.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Text.Encoding.Extensions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.NetworkInformation.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Linq.Expressions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Win32.Registry.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Management.Infrastructure.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.X509Certificates.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Newtonsoft.Json.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.InteropServices.RuntimeInformation.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.Encoding.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Cryptography.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (amsi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (clbcatq.dll)</S>
+          <S>System.Diagnostics.ProcessModule (MpOav.dll)</S>
+          <S>System.Diagnostics.ProcessModule (version.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Numerics.dll)</S>
+          <S>System.Diagnostics.ProcessModule (netstandard.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.AccessControl.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ComponentModel.TypeConverter.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Mail.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ObjectModel.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Serialization.Formatters.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.TraceSource.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Linq.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Serialization.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Data.Common.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.ComponentModel.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.Emit.ILGeneration.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.Emit.Lightweight.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Reflection.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.CoreCLR.Eventing.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.Win32.Primitives.dll)</S>
+          <S>System.Diagnostics.ProcessModule (wldp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (CRYPT32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (MSASN1.dll)</S>
+          <S>System.Diagnostics.ProcessModule (WINTRUST.dll)</S>
+          <S>System.Diagnostics.ProcessModule (CRYPTSP.dll)</S>
+          <S>System.Diagnostics.ProcessModule (rsaenh.dll)</S>
+          <S>System.Diagnostics.ProcessModule (CRYPTBASE.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Console.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Principal.Windows.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Claims.dll)</S>
+          <S>System.Diagnostics.ProcessModule (uxtheme.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.ApplicationInsights.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.DiagnosticSource.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.MemoryMappedFiles.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.Tracing.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Private.Xml.Linq.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.Pipes.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Xml.XDocument.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.Specialized.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.Security.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.Tasks.Parallel.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.Compression.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.FileSystem.DriveInfo.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Diagnostics.StackTrace.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Collections.NonGeneric.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.FileSystem.AccessControl.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.Overlapped.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Http.dll)</S>
+          <S>System.Diagnostics.ProcessModule (secur32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (SSPICLI.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (System.Runtime.Loader.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Text.Encoding.CodePages.dll)</S>
+          <S>System.Diagnostics.ProcessModule (mpr.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Security.Permissions.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Threading.ThreadPool.dll)</S>
+          <S>System.Diagnostics.ProcessModule (MPCLIENT.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (USERENV.dll)</S>
+          <S>System.Diagnostics.ProcessModule (gpapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (coml2.dll)</S>
+          <S>System.Diagnostics.ProcessModule (cryptnet.dll)</S>
+          <S>System.Diagnostics.ProcessModule (IPHLPAPI.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (WINNSI.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (NSI.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.PSReadLine2.dll)</S>
+          <S>System.Diagnostics.ProcessModule (mscorlib.dll)</S>
+          <S>System.Diagnostics.ProcessModule (DNSAPI.dll)</S>
+          <S>System.Diagnostics.ProcessModule (WS2_32.dll)</S>
+          <S>System.Diagnostics.ProcessModule (dhcpcsvc6.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (dhcpcsvc.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Security.dll)</S>
+          <S>System.Diagnostics.ProcessModule (winhttp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ondemandconnroutehelper.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.Sockets.dll)</S>
+          <S>System.Diagnostics.ProcessModule (mswsock.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Net.NameResolution.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ucrtbase.dll)</S>
+          <S>System.Diagnostics.ProcessModule (NLAapi.dll)</S>
+          <S>System.Diagnostics.ProcessModule (winrnr.dll)</S>
+          <S>System.Diagnostics.ProcessModule (rasadhlp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (napinsp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (fwpuclnt.dll)</S>
+          <S>System.Diagnostics.ProcessModule (schannel.DLL)</S>
+          <S>System.Diagnostics.ProcessModule (Normaliz.dll)</S>
+          <S>System.Diagnostics.ProcessModule (mskeyprotect.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ncrypt.dll)</S>
+          <S>System.Diagnostics.ProcessModule (NTASN1.dll)</S>
+          <S>System.Diagnostics.ProcessModule (ncryptsslp.dll)</S>
+          <S>System.Diagnostics.ProcessModule (Microsoft.PowerShell.Commands.Management.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.Core.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.dll)</S>
+          <S>System.Diagnostics.ProcessModule (System.IO.Compression.Native.dll)</S>
+        </LST>
+      </Obj>
+      <I32 N="NonpagedSystemMemorySize">60336</I32>
+      <I64 N="NonpagedSystemMemorySize64">60336</I64>
+      <I32 N="PagedMemorySize">46710784</I32>
+      <I64 N="PagedMemorySize64">46710784</I64>
+      <I32 N="PagedSystemMemorySize">358360</I32>
+      <I64 N="PagedSystemMemorySize64">358360</I64>
+      <I32 N="PeakPagedMemorySize">51642368</I32>
+      <I64 N="PeakPagedMemorySize64">51642368</I64>
+      <I32 N="PeakWorkingSet">90927104</I32>
+      <I64 N="PeakWorkingSet64">90927104</I64>
+      <I32 N="PeakVirtualMemorySize">810299392</I32>
+      <I64 N="PeakVirtualMemorySize64">2199833554944</I64>
+      <B N="PriorityBoostEnabled">true</B>
+      <S N="PriorityClass">Normal</S>
+      <I32 N="PrivateMemorySize">46710784</I32>
+      <I64 N="PrivateMemorySize64">46710784</I64>
+      <TS N="PrivilegedProcessorTime">PT0.59375S</TS>
+      <S N="ProcessName">pwsh</S>
+      <S N="ProcessorAffinity">15</S>
+      <B N="Responding">true</B>
+      <I32 N="SessionId">2</I32>
+      <S N="StartInfo">System.Diagnostics.ProcessStartInfo</S>
+      <DT N="StartTime">2022-08-28T10:19:43.4876011-05:00</DT>
+      <Nil N="SynchronizingObject" />
+      <Obj N="Threads" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+          <S>System.Diagnostics.ProcessThread</S>
+        </LST>
+      </Obj>
+      <TS N="TotalProcessorTime">PT3.125S</TS>
+      <TS N="UserProcessorTime">PT2.53125S</TS>
+      <I32 N="VirtualMemorySize">783118336</I32>
+      <I64 N="VirtualMemorySize64">2199806373888</I64>
+      <B N="EnableRaisingEvents">false</B>
+      <I32 N="WorkingSet">86564864</I32>
+      <I64 N="WorkingSet64">86564864</I64>
+      <Nil N="Site" />
+      <Nil N="Container" />
+    </Props>
+    <MS>
+      <S N="Name">pwsh</S>
+      <I32 N="SI">2</I32>
+      <I32 N="Handles">603</I32>
+      <I64 N="VM">2199806373888</I64>
+      <I64 N="WS">86564864</I64>
+      <I64 N="PM">46710784</I64>
+      <I64 N="NPM">60336</I64>
+      <S N="Path">C:\Program Files\PowerShell\7\pwsh.exe</S>
+      <S N="Company">Microsoft Corporation</S>
+      <Db N="CPU">3.125</Db>
+      <S N="FileVersion">7.2.6.500</S>
+      <S N="ProductVersion">7.2.6 SHA: eb2c4accddda2995e50cd349e655888500899d8b</S>
+      <S N="Description">pwsh</S>
+      <S N="Product">PowerShell</S>
+      <S N="__NounName">Process</S>
+      <S N="PSComputerName">localhost</S>
+      <G N="RunspaceId">2773d455-e1ef-4bde-bae8-0e1a5e79ab8c</G>
+      <B N="PSShowComputerName">true</B>
+    </MS>
+  </Obj>
+</Objs>
