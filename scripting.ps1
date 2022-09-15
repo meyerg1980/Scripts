@@ -32,8 +32,8 @@ Format-Table -property DeviceID,
 
 #additional parameters
 param (
-$computername = 'localhost',
-$drivetype = 3
+[string]$computername = 'localhost',
+[int]$drivetype = 3
 )
 Get-CimInstance -class Win32_LogicalDisk -computername $computername `
 -filter "drivetype=$drivetype" |
@@ -52,3 +52,8 @@ Get-CimInstance -classname Win32_LogicalDisk -ComputerName $computername `
 -filter "drivetype=3" |
 Where { ($_.FreeSpace / $_.Size) -lt $minspace } |
 Select -Property DeviceID,FreeSpace,Size
+
+
+Get-ADComputer -filter * | Select-Object -Property name, {name='ComputerName';expression={$_.name}} | gm
+
+Import-PSSession -Session $s -Module ActiveDirectory -Prefix remote

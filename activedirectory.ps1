@@ -16,6 +16,7 @@ Get-ADUser -Filter {Department -eq "Finance"} -Property Department, Manager, Tit
 
 Get-ADUser -Filter {Office -eq "Miami" and Department -eq "Finance"} -Property Department, Manager, Title, Office | Select-Object Name, Department, Manager, Title, Office
 
+Get-ADUser -filter {Name -like "*User*"} | Select-Object Name, Department, Manager
 
 
 
