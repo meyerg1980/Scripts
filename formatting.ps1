@@ -43,3 +43,8 @@ Get-Process -name * | where-Object {$_.name -notlike "*pwsh*"} | Sort-Object Vir
 
 
 Get-Process -Name (Get-Content c:\names.txt | Where-Object -filter { $_ -notlike '*daemon' }) | Where-Object -filter { $_.WorkingSet -gt 128KB }
+
+Get-Process |
+Format-Table Name,
+@{name='VM(MB)';expression={$_.VM};formatstring='F2';align='right'}
+-AutoSize
