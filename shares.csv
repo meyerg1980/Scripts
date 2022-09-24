@@ -1,0 +1,24 @@
+
+Path                                          InstallDate AccessMask PSComputerName
+----                                          ----------- ---------- --------------
+C:\Windows                                                           DC.meyersec.com
+C:\                                                                  DC.meyersec.com
+                                                                     DC.meyersec.com
+C:\Windows\SYSVOL\sysvol\meyersec.com\SCRIPTS                        DC.meyersec.com
+C:\Windows\SYSVOL\sysvol                                             DC.meyersec.com
+A:\                                                                  CS.meyersec.com
+C:\Windows                                                           CS.meyersec.com
+C:\                                                                  CS.meyersec.com
+                                                                     CS.meyersec.com
+A:\                                                                  FS1.meyersec.com
+C:\Windows                                                           FS1.meyersec.com
+C:\                                                                  FS1.meyersec.com
+                                                                     FS1.meyersec.com
+L:\                                                                  FS1.meyersec.com
+R:\                                                                  FS1.meyersec.com
+C:\Share1                                                            FS1.meyersec.com
+A:\Shares                                                            FS1.meyersec.com
+C:\Windows                                                           GNS3.meyersec.com
+C:\                                                                  GNS3.meyersec.com
+                                                                     GNS3.meyersec.com
+

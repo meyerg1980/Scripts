@@ -1,6 +1,6 @@
 Import-Csv .\newusers.csv |
 Select-Object -Property *,
-@{name = 'samAccountName'; expression={$_.login}},
-@{label = 'Name'; expression={$_.login}},
+@{name = 'samAccountName'; e={$_.login}},
+@{label = 'Name'; e={$_.login}},
 @{n = 'Department'; e={$_.Dept}} |
 New-ADUser
