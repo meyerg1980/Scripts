@@ -107,3 +107,16 @@ Select-Object -property DeviceID,
 @{name='Size(GB)';expression={$_.Size / 1GB -as [int]}},
 @{name='%Free';expression={$_.FreeSpace / $_.Size * 100 -as [int]}}
 Write-Verbose "Finished running command"
+
+
+
+
+
+
+
+# $() do whatever is in the parenthese 
+$p = Get-Process pwsh
+"Process id = $($p.Id)" 
+"process id = $(read-host -prompt "What should i give them?")"
+
+$msg = "service name is $($p.name.toupper())"

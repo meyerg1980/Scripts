@@ -26,3 +26,6 @@ switch ($a, $b)
     D{Write-Host "You typed D"}
     Default {Write-Host "You typed an invalid letter"}
 }
+
+
+Get-CimInstance -ClassName  c

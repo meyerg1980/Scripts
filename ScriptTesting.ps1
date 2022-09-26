@@ -284,3 +284,9 @@ else {
 
       Invoke-CimMethod Win32_Process -MethodName "Create" -Arguments @{ CommandLine = 'mspaint.exe'}
       Invoke-CimMethod -Query 'select * from Win32_Process where name like "mspaint.exe"' -MethodName "Terminate"
+
+      $y = if($false) {1} else {2}
+
+invoke-command -ComputerName (Get-Content .\servers.txt) {commands}
+
+foreach ($s in (Get-Content .\servers.txt)) {Invoke-Command -ComputerName $s {commands}}

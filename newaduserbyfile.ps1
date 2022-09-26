@@ -4,3 +4,5 @@ Select-Object -Property *,
 @{label = 'Name'; e={$_.login}},
 @{n = 'Department'; e={$_.Dept}} |
 New-ADUser
+
+
