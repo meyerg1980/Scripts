@@ -8,6 +8,6 @@ docker info
 docker system prune try --all  
 
 #create a config file
-'{"data-root": "A:\\Docker"."group":devops}' | Out-File C:\ProgramData\docker\config\daemon.json
+'{"data-root": "A:\\Docker","group": devops}' | Out-File C:\ProgramData\docker\config\daemon.json
 
 -Service docker
