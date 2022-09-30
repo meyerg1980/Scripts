@@ -18,12 +18,14 @@ ConvertTo-HTML
 
 
 #my version
-$serv = Get-CimInstance -ClassName Win32_Service where{$_.name -like "BITS"}
+$serv = Get-CimInstance -ClassName Win32_Service | where{$_.name -like "BITS"}
 $sess = New-CimSession -ComputerName cs, gns3
-Invoke-CimMethod -CimSession $sess -InputObject $serv -MethodName change -Arguments @{'StartName'='meyersec\gmeyer80';'startpassword'='Fu5ion27@@??'}
+Invoke-CimMethod -CimSession $sess -InputObject $serv -MethodName change -Arguments @{'StartName'='meyersec\gmeyer80';'StartPassword'='Fu5ion27@@??'}
 
 #books version
-Invoke-CimMethod -Query "SELECT * FROM Win32_Service  WHERE Name='BITS'"                  
--Method Change                  
--Arguments @{'StartName'='DOMAIN\User'; 'StartPassword'='P@ssw0rd'}                  
+Invoke-CimMethod -Query "SELECT * FROM Win32_Service  WHERE Name='BITS'" `
+-Method Change `
+-Arguments @{'StartName'='DOMAIN\User'; 'StartPassword'='P@ssw0rd'} `
 -Computername $env:computername  
+
+
