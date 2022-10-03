@@ -25,7 +25,7 @@ function Set-MEYServiceLogon {
                     Write-Verbose "getting $service to change logon"
                     If ($DomainUser -ne "") {
                         $Arguments = @{'StartName' = $DomainUser
-                            'StartPassword'        = $DomainPassword
+                                       'StartPassword' = $DomainPassword
                         }
                     }
                     Else { 
@@ -33,9 +33,9 @@ function Set-MEYServiceLogon {
                         Write-Warning "No new domain account set"
                     }
                     $Parameters = @{'CimSession' = $Session 
-                        'MethodName'             = 'Change' 
-                        'InputObject'            = $ServToChange
-                        'Arguments'              = $Arguments
+                                    'MethodName' = 'Change' 
+                                    'InputObject' = $ServToChange
+                                    'Arguments' = $Arguments
                     }
                     Write-Verbose "Changing Logon for $service to user $DomainUSer"
                     $returnCode = Invoke-CimMethod @parameters
@@ -45,7 +45,7 @@ function Set-MEYServiceLogon {
                         Default { $status = "Failed: $($returnCode.ReturnValue)" }
                     }
                     $properties = @{'ComputerName' = $Computer 
-                        'Status'                   = $status
+                                    'Status' = $status
                     }
                     $object = New-Object -TypeName PSObject -Property  $properties
                     Write-Output $object
@@ -56,8 +56,7 @@ function Set-MEYServiceLogon {
                     #change protocol, if both failed log computer
                     switch ($Protocol) {
                         'Wsman' { $protocol = 'Dcom' }
-                        'Dcom' {
-                            $protocol = 'stop'
+                        'Dcom' {$protocol = 'stop'
                             if ($ErrorLogFilePath) {
                                 Write-Warning "$Computer failed; logged to $ErrorLogPathFile"
                                 $computer | Out-File $ErrorLogPathFile -Append
