@@ -28,16 +28,16 @@ Install-Module Microsoft.PowerShell.GraphicTools
 
 Get-Process | format-table Name, @{name='vm(mb)' ;expression={$_.VM / 1mb -as [int]}}, ID, PagedMemorySize64, VirtualMemorySize64
 
-get-module | Format-Table Name @{Name='ModuleName' ;expression ={$_.name}}, Version @{version='ModuleVersion' ;expression = {$_.Version}}
+get-module | Format-Table Name @{Name='ModuleName' ;expression ={$_.name}}, Version @{name='ModuleVersion' ;expression = {$_.Version}}
 
-Get-Module| Format-Table -property  @{l='ModuleName';e={$_.Name }}, @{l='ModuleVersion';e={$_.Version}} 
+Get-Module| Format-Table -property  @{name='ModuleName';expression={$_.Name }}, @{name='ModuleVersion';expression={$_.Version}} 
 
-Get-Module | Format-Table -Property  {$_.}
+
 
 
 get-module | Format-Table @{Name='ModuleName' ;expression ={$_.name}}
 
-get-module | Format-Table version @{version='ModuleName' ;expression ={$_.Version}}
+get-module | Format-Table version @{name='ModuleName' ;expression ={$_.Version}}
 
 Get-Process -name * | where-Object {$_.name -notlike "*pwsh*"} | Sort-Object VirtualMemorySize -Descending | select -First 10 | Measure-Object VirtualMemorySize -Sum
 

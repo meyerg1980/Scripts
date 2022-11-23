@@ -21,7 +21,7 @@ function Set-MEYServiceLogon {
                     $option = New-CimSessionOption -Protocol $Protocol
                     Write-Verbose "Coneecting to $Computer over $Protocol"
                     $session = New-CimSession -SessionOption $option -ComputerName $Computer -ErrorAction Stop
-                    $ServToChange = Get-CimInstance -ClassName Win32_Service | Where-Object { $_.name -like $Service }
+                    $ServToChange = Get-CimInstance -ClassName Win32_Service | Where-Object {$_.name -like $Service}
                     Write-Verbose "getting $service to change logon"
                     If ($DomainUser -ne "") {
                         $Arguments = @{'StartName' = $DomainUser
@@ -29,7 +29,7 @@ function Set-MEYServiceLogon {
                         }
                     }
                     Else { 
-                        $Arguments = @{'StartPassword' = $DomainPassword }
+                        $Arguments = @{'StartPassword' = $DomainPassword}
                         Write-Warning "No new domain account set"
                     }
                     $Parameters = @{'CimSession' = $Session 
@@ -40,9 +40,9 @@ function Set-MEYServiceLogon {
                     Write-Verbose "Changing Logon for $service to user $DomainUSer"
                     $returnCode = Invoke-CimMethod @parameters
                     switch ($returnCode.ReturnValue) {
-                        0 { $status = 'Success' }
-                        22 { $status = 'Invalid Account' }
-                        Default { $status = "Failed: $($returnCode.ReturnValue)" }
+                        0 {$status = 'Success'}
+                        22 {$status = 'Invalid Account'}
+                        Default {$status = "Failed: $($returnCode.ReturnValue)"}
                     }
                     $properties = @{'ComputerName' = $Computer 
                                     'Status' = $status
@@ -55,7 +55,7 @@ function Set-MEYServiceLogon {
                 catch {
                     #change protocol, if both failed log computer
                     switch ($Protocol) {
-                        'Wsman' { $protocol = 'Dcom' }
+                        'Wsman' {$protocol = 'Dcom'}
                         'Dcom' {$protocol = 'stop'
                             if ($ErrorLogFilePath) {
                                 Write-Warning "$Computer failed; logged to $ErrorLogPathFile"
