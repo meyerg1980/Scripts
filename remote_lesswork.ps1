@@ -50,3 +50,5 @@ Get-EventLog -LogName  Security | Select-Object -First 20
 invoke-command -command {Get-EventLog -LogName security | Select-Object -First 20} -Session $session
 
 invoke-command -command {ServerManagerLauncher.exe} -Session $session
+
+invoke-command -ComputerName dc,fs1,gns3 {get-eventlog -Newest 3}
