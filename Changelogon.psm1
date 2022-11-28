@@ -3,10 +3,10 @@ function Set-MEYServiceLogon {
     Param(
         [Parameter(Mandatory, ValueFromPipelineByPropertyName)][string]$Service,
         [Parameter(Mandatory, ValueFromPipeline, ValueFromPipelineByPropertyName)]
-        [string[]][Alias('Hostname', 'MachineName')]$ComputerName = 'localhost',
+        [string[]][Alias('Hostname', 'MachineName')]$ComputerName,
         [Parameter(Mandatory, ValueFromPipelineByPropertyName)][string]$DomainUser,
         [Parameter(Mandatory, ValueFromPipelineByPropertyName)][string]$DomainPassword,
-        [string][ValidateSet('Wsman', 'Stop', 'Dcom')]$Protocol = 'Wsman',
+        [Parameter()][string][ValidateSet('Wsman', 'Stop', 'Dcom')]$Protocol,
         [string]$ErrorLogFilePath,
         [switch]$ProtocolFallback
     )  
@@ -15,11 +15,10 @@ function Set-MEYServiceLogon {
         ForEach($Computer in $ComputerName) {
 
             do {
-                Write-Verbose "Connect to $computer on Wsman"
-                $protocol = "Wsman"
+                Write-Verbose "Connect to $computer on $protocol"
+            
                 try {
                     $option = New-CimSessionOption -Protocol $Protocol
-                    Write-Verbose "Coneecting to $Computer over $Protocol"
                     $session = New-CimSession -SessionOption $option -ComputerName $Computer -ErrorAction Stop
                     $ServToChange = Get-CimInstance -ClassName Win32_Service | Where-Object {$_.name -like $Service}
                     Write-Verbose "getting $service to change logon"

@@ -38,4 +38,4 @@ function Set-TMServiceLogon {
             }#foreach
         }#process
     end{}
-}#funstion
+}#function
