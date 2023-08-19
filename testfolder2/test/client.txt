@@ -1,0 +1,1 @@
+ msiexec.exe /i NSClient.msi token= 9Jzwb2zy2b6zSKHZIFlS host=addon-esposystems.goskope.com mode=peruserconfig

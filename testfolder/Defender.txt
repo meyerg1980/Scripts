@@ -1,0 +1,38 @@
+mem - microsft endpoint manager
+ioav - IOffice Antivirus
+WTP - web threat protection
+WCF - web content filtering  
+MDCA - Microsoft defender for cloud apps
+motw - maek of the web
+rtp - real time protection
+bafs - black at first sight
+Tamper protection
+sense
+smart screen
+ASR - attack surface reduction
+network protection
+ep - expolit protection
+cfa - controlled folder access
+tp - tamper protection
+scep - system center endpoint protection
+mtd - mobile threat defense
+mte - microsoft threat experts
+mdc - microsoft defender for cloud
+mma - microsoft monitoring agent
+microsoft intune
+mdvm - microsft defender vulnerability management 
+mdi - microsft defender for identity
+mdo - microsoft defender for office
+lr - live response 
+kql - kusto query language
+etw - event tracing for windows
+amsi - antimalware scan interface
+air - automated investigation and response
+atp - advanced threat protection
+wdac - windows defender application control
+zeek - network moitoring tool
+
+
+
+
+

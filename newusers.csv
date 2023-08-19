@@ -1,5 +1,4 @@
-samAccountName,Name,Title,Department
-MEYERSECj.jones,john jones,Tech,IT
-MEYERSECs.smith,CTO,Steve smith,IT
-MEYERSECr.leech,Janitor,Robin leech,Custodial
-
+login,dept,city,title
+TylerL,IT,Seattle,IT Engineer
+JamesP,IT,Chattanooga,CTO
+RobinL,Custodial,Denver,Janitor

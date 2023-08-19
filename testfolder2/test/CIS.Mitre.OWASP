@@ -1,0 +1,34 @@
+Control 01. Inventory and Control of Enterprise Assets
+Control 02. Inventory and Control of Software Assets.
+Control 03. Data Protection
+Control 04. Secure Configuration of Enterprise Assets and Software.
+Control 05. Account Management
+Control 06. Access Control Management
+Control 07. Continuous Vulnerability Management
+Control 08. Audit Log Management.
+Control 09. Email and Web Browser Protections
+Control 10. Malware Defenses
+Control 11. Data Recovery.
+Control 12. Network Infrastructure Management.
+Control 13. Network Monitoring and Defense.
+Control 14. Security Awareness and Skills Training
+Control 15. Service Provider Management.
+Control 16. Application Software Security
+Control 17. Incident Response Management .
+Control 18. Penetration Testing
+
+Mitre ATT&CK - Adversarial Tactics, Techniques, and Common Knowledge
+
+OWASP:
+01 - Broaken access Control
+02 - Cryptographic Failures
+03 - Injection
+04 - Insecure Design
+05 - Security Misconfiguration
+06 - Vulnerable and outdated components
+07 - Identification and Authentication Failures
+08 - Software and Data Integrity Failures
+09 - Security and Logging Failures
+10 - Server Side Request Forgery
+
+780589150

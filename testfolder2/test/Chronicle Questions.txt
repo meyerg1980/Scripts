@@ -1,0 +1,361 @@
+Security Practices with Chronicle SIEM Quiz
+Passing score: 75%
+1.
+
+What language is used for rules?
+
+YARA-L xxxxxx
+2.
+
+How does the Chronicle Forwarder recognize what data format is being ingested?
+
+Tags
+
+Channel Names
+
+Topics
+
+Data labels
+3.
+
+The feeds option in settings allows you to add new data sources in the UI?
+
+True
+
+False
+4.
+
+What search component is used to search for non-indexed data?
+
+Raw Log Scan
+
+5.
+
+Chronicle provides the following major benefits _________?
+
+All other answers are correct
+
+
+6.
+
+You can use filters to further organize data ingestion when configuring the Chronicle Forwarder?
+
+True
+
+False
+7.
+
+What search component is used for extremely fast results on asset,domain,IP,User, and file/hash results?
+
+Investigative Search
+
+No other answers are correct
+
+Raw Log Search
+
+UDM Search
+8.
+
+GCP Logs can be ingested into Chronicle using ________?
+
+Forwarder
+
+Direct Ingestion
+
+Ingestion API
+
+Cloud-Cloud Service
+9.
+
+What search component is used for threat hunting and other indepth use cases?
+
+Investigative Search
+
+No others answers are correct
+
+Raw Log Search
+
+UDM Search
+10.
+
+Adding and modifying rules is accomplished from what screen?
+
+Rules
+
+11.
+
+While writing a rule where do you put the descriptive information?
+
+Meta
+
+12.
+
+What view shows IOC matches and recent alerts?
+
+
+Enterprise Insights
+13.
+
+In addition to logs Chronicle can also collect contextual data?
+
+True
+
+False
+14.
+
+Which of the following ways is the correct one when investigating threats in Chronicle?
+
+IOC Search Bar
+
+Each of those provide a starting point, however for optimal experience it’s recommended to start the investigation in the ticketing/investigation platform of choice
+
+Rules Dashboard
+
+Enterprise Insights
+15.
+
+What view is used to utilize analytics from Looker?
+
+Dashboards
+
+Enterprise Insights
+
+List Manager
+
+Rules
+16.
+
+A new rule has been developed and historical data over the last year must be investigated, you must run a ______ to perform the investigation?
+
+Retrohunt
+
+No other answers are correct
+
+Live Status
+
+Alerting
+17.
+
+On premise data requires the use of a __________ to collect data?
+
+Forwarder
+
+Direct Ingestion
+
+Ingestion API
+
+Cloud-Cloud Service
+18.
+
+What language are Chronicle parsers based on?
+
+Python
+
+GoLang
+
+Logstash
+
+HTML
+19.
+
+Ingest Health is found in which Dashboard?
+
+Data ingestion and health
+
+User Sign in Overview
+
+Main
+
+IOC Matches
+20.
+
+You are asked to assign the least privelaged role in Chronicle, which do you choose?
+
+Viewer
+
+Administrator
+
+ViewerWithNoDetectAccess
+
+Editor
+21.
+
+What built in tool is used to write and test rules?
+
+Rules Dashboard
+
+RBAC Controls
+
+Retrohunt
+
+Rules Editors
+22.
+
+You are writing a rule that must only look within the last 20min, what section of the rule do you place this condition in?
+
+Events
+
+Condition
+
+Meta
+
+Match
+23.
+
+The collection section of the Chronicle Forwarder's configuration contains what elements?
+
+Expected Data Types
+
+Expected Data Types & Ingestion Methods
+
+IDs
+
+Ingestion Methods
+24.
+
+Each Chronicle Forwarder may have multiple connectors each corresponding to a data source?
+
+True
+
+False
+25.
+
+Which default dashboard reports on detection rules?
+
+User Sign in Overview
+
+Main
+
+IOC matches
+
+Rule Detections
+26.
+
+Chronicle dashboards are powered by Looker?
+
+True
+
+False
+27.
+
+What type of identity provider must be used for Single Sign On?
+
+SAML 2.0
+
+Kerberos
+
+SAML 1.0
+
+Smart Card
+28.
+
+What must be enabled in order for a rule to be active?
+
+Alerting
+
+No other answers are correct
+
+Live Status
+
+Retrohunt
+29.
+
+Detection rules can be either alerting or non-alerting signals?
+
+True
+
+False
+30.
+
+When using the ingestion API what formats are supported?
+
+UDM
+
+All other answers are correct
+
+Entity
+
+Unstructured Data
+31.
+
+Threat Intelligence information can be found on what dashboard?
+
+Main
+
+IOC matches
+
+User Sign in Overview
+
+Data ingestion and health
+32.
+
+Multiple syslog data sources can use a single port on the Chronicle Forwarder?
+
+True
+
+False
+33.
+
+What information do you need to store after creating a rule with the detection API?
+
+Rule ID and Rule Version
+
+Rule Conditions
+
+Rule Author
+
+Rule Name
+34.
+
+What section of a detection rule contains filter conditions similar to a WHERE clause?
+
+Events
+
+Condition
+
+Match
+
+Meta
+35.
+
+What collection method can be used to send data directly to Chronicle?
+
+All of the other answers are correct.
+
+Forwarder
+
+Direct Ingestion
+
+Ingestion API
+
+Cloud-Cloud Service
+36.
+
+Chronicle uses a standard schmea called ______?
+
+UDM
+
+37.
+
+Name spaces can be used to identify distinct network segments when configuring the Chronicle Forwarder?
+
+True
+
+False
+38.
+
+What types of data can be posted to the Ingestion API?
+
+UDM Entities
+
+UDM, entities & unstructured raw logs
+
+Unstructured raw logs
+
+CEF
+39.
+
+What section of a detection rule describes the events that must match?
+
+Condition
+

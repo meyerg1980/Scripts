@@ -1,0 +1,22 @@
+
+ NPM(K)    PM(M)      WS(M)     CPU(s)      Id  SI ProcessName
+ ------    -----      -----     ------      --  -- -----------
+     18    13.30      21.72      64.92   10372   1 RuntimeBroker
+     21    18.86       4.24      27.34   11180   1 RAVBg64
+     41    21.78      30.81      27.28    8460   1 RuntimeBroker
+     18    10.16      18.36      16.16    6308   1 RuntimeBroker
+     23     9.36      21.55      13.42   10032   1 RuntimeBroker
+     24     9.86      30.30      12.83     100   0 Registry
+     22    11.84      17.86      12.31    7896   1 RuntimeBroker
+     19     7.30      15.22       4.50    5296   1 RuntimeBroker
+     17     8.45       9.20       4.25    8788   1 RuntimeBroker
+     17     6.39       7.82       3.56   10684   1 RtkNGUI64
+     18     5.90       5.98       1.42   10768   1 RAVBg64
+     15     5.39       5.92       1.30    3620   1 RAVBg64
+     14     5.62       4.67       0.80    3612   1 RAVBg64
+     13     3.09       5.49       0.39   11340   1 RuntimeBroker
+      9     2.16       1.93       0.19    3788   1 RuntimeBroker
+      8     1.47       1.08       0.16    4516   0 RstMwService
+      9     2.09       2.22       0.12   11188   1 RuntimeBroker
+      9     1.83       1.54       0.08    3216   0 RtkAudioService64
+
