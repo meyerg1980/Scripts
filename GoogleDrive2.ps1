@@ -6,7 +6,6 @@ function Set-GDriveCert {
     )
 $rootCA = get-content "C:\Users\$user\Desktop\Certs\rootcaCert.pem"
 $caCert = get-content "C:\Users\$user\Desktop\Certs\caCert.pem"
-
 $version = Get-Process GoogleDriveFS | Select-Object -ExpandProperty ProductVersion -First 1
 $RootsPem = get-content "C:\Program Files\Google\Drive File Stream\$version\config\roots.pem"
 
